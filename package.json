@@ -13,7 +13,7 @@
   "sideEffects": false,
   "repository": {
     "url": "git@github.com:IlanAzoulay/vue-single-select-v2.git"
-  }
+  },
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
