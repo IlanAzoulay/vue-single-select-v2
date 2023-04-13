@@ -26,7 +26,7 @@ npm i vue-single-select-v2
 
 ## HOW TO USE
 
-The instructions are exactly the same as the original, and the (Readme of the original)[https://github.com/robrogers3/vue-single-select/blob/master/README.md] is already very detailed and reliable.
+The instructions are exactly the same as the original, and the [Readme of the original](https://github.com/robrogers3/vue-single-select/blob/master/README.md) is already very detailed and reliable.
 
 ## LICENSE
 
