@@ -1,6 +1,6 @@
 {
   "name": "vue-single-select-v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fork of vue-single-select with extra features",
   "main": "dist/vue-single-select-v2.ssr.js",
   "browser": "dist/vue-single-select-v2.esm.js",
@@ -11,6 +11,9 @@
     "src/**/*.vue"
   ],
   "sideEffects": false,
+  "repository": {
+    "url": "git@github.com:IlanAzoulay/vue-single-select-v2.git"
+  }
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
