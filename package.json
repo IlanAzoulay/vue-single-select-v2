@@ -1,6 +1,6 @@
 {
   "name": "vue-single-select-v2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Fork of vue-single-select with extra features",
   "author": "Ilan Azoulay",
   "main": "dist/vue-single-select-v2.ssr.js",
@@ -10,7 +10,7 @@
   "files": [
     "dist/*",
     "src/**/*.vue",
-    "src/**/*.js"
+    "src/pointerScroll.js"
   ],
   "sideEffects": false,
   "repository": {
