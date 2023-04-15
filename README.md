@@ -2,8 +2,6 @@
 NPM package: a fork of [vue-single-select](https://github.com/robrogers3/vue-single-select/blob/master/src/VueSingleSelect.vue) by [Rob Rogers](https://github.com/robrogers3) to add extra features.
 Compatible with Vue.js.
 
-
-
 ## FEATURES
 Original features: 
 - Selection of an item in a list, with v-model value
@@ -24,9 +22,73 @@ Added features in this fork version:
 npm i vue-single-select-v2
 ```
 
+and add this to the *<script>* part of your Vue file
+
+```js
+import VueSingleSelectV2 from 'vue-single-select-v2';
+
+export default {
+  components: {
+    VueSingleSelectV2
+  }
+}
+```
+
 ## HOW TO USE
 
 The instructions are exactly the same as the original, and the [Readme of the original](https://github.com/robrogers3/vue-single-select/blob/master/README.md) is already very detailed and reliable.
+Example:
+```html
+<vue-single-select-v2
+  :value="yourVariable"
+  :options="['1', 'test 2', 'I', 'turned', 'myself', 'into', 'a', 'pickle', 'morty']"/>
+```
+
+### NEW FIELDS
+
+New fields were added for speed and convenience purposes:
+
+#### 1. componentHeight
+
+Type: `String`\
+Height of the component. **DO NOT FORGET TO INCLUDE THE UNIT!**
+Examples: '40px', '4rem'
+
+```html
+<vue-single-select-v2
+  :value="yourVariable"
+  :options="['1', '2', '3']"
+  :componentHeight="'50px'"
+  />
+```
+
+#### 2. backgroundColor
+
+Type: `String`\
+Color inside the field
+Examples: 'white', 'rgb(250, 250, 250)', '#fff'
+
+```html
+<vue-single-select-v2
+  :value="yourVariable"
+  :options="['1', '2', '3']"
+  :backgroundColor="'rgb(250, 250, 250)'"
+  />
+```
+
+#### 3. iconSize
+
+Type: `String`\
+Height of the arrow and the X button to the right of the field. Again, **DO NOT FORGET TO INCLUDE THE UNIT!**
+Examples: '15px', '1.5rem'
+
+```html
+<vue-single-select-v2
+  :value="yourVariable"
+  :options="['1', '2', '3']"
+  :iconSize="'20px'"
+  />
+```
 
 ## LICENSE
 

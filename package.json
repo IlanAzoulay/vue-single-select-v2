@@ -1,6 +1,6 @@
 {
   "name": "vue-single-select-v2",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Fork of vue-single-select with extra features",
   "author": "Ilan Azoulay",
   "main": "dist/vue-single-select-v2.ssr.js",
