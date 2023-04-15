@@ -2,18 +2,32 @@
   "name": "vue-single-select-v2",
   "version": "1.0.4",
   "description": "Fork of vue-single-select with extra features",
+  "author": "Ilan Azoulay",
+  
   "main": "dist/vue-single-select-v2.ssr.js",
   "browser": "dist/vue-single-select-v2.esm.js",
   "module": "dist/vue-single-select-v2.esm.js",
   "unpkg": "dist/vue-single-select-v2.min.js",
+  
   "files": [
     "dist/*",
-    "src/**/*.vue"
+    "src/**/*.vue",
+	"src/**/*.js"
   ],
   "sideEffects": false,
   "repository": {
+	"type": "git",
     "url": "git@github.com:IlanAzoulay/vue-single-select-v2.git"
   },
+  "homepage": "https://github.com/IlanAzoulay/vue-single-select-v2#readme",
+  "keywords": [
+    "vue",
+    "dropdown",
+    "select",
+    "list",
+    "options",
+    "form"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
