@@ -1,6 +1,6 @@
 {
   "name": "vue-single-select-v2",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fork of vue-single-select with extra features",
   "author": "Ilan Azoulay",
   "main": "dist/vue-single-select-v2.ssr.js",
@@ -34,7 +34,9 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue-sfc-rollup": "^4.1.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
